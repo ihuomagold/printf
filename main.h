@@ -39,6 +39,19 @@ int _puts(char *str);
 /* converter */
 char *convert(unsigned long int num, int base, int lowercase);
 
+/* get flag*/
+int get_flag(char s, flags_t *f);
+
+/* get print*/
+int (*get_print(char s))(va_list, flags_t *);
+
+/* print_percent */
+int print_percent(va_list l, flags_t *f);
+
+/* print_string_char */
+int print_string(va_list l, flags_t *f);
+int print_char(va_list l, flags_t *f);
+
 /* for printf */
 int _printf(const char *format, ...);
 
