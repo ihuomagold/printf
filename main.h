@@ -61,4 +61,18 @@ void print_number(int n);
 int print_unsigned(va_list l, flags_t *f);
 int count_digit(int i);
 
+/* for bases */
+int print_hex(va_list l, flags_t *f);
+int print_hex_big(va_list l, flags_t *f);
+int print_binary(va_list l, flags_t *f);
+int print_octal(va_list l, flags_t *f);
+
+/* for address */
+int print_address(va_list l, flags_t *f);
+
+/* for custom prints */
+int print_rot13(va_list l, flags_t *f);
+int print_rev(va_list l, flags_t *f);
+int print_bigS(va_list l, flags_t *f);
+
 #endif /* MAIN_H */
