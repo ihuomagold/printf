@@ -20,10 +20,6 @@ int print_address(va_list l, flags_t *f)
 	if (!p)
 		return (_puts("(nil)"));
 	str = convert(p, 16, 1);
-<<<<<<< HEAD
-=======
-
->>>>>>> 4199edf09f76ed61294d62d50100b9c9b7be3b19
 	count += _puts("0x");
 	count += _puts(str);
 	return (count);
