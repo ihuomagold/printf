@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_string - loops through a string and
- * prints out every character
+ * print_string - loops through a string and prints
+ * every character
  * @l: va_list arguments from _printf
  * @f: pointer to the struct flags that determines
  * if a flag is passed to _printf
